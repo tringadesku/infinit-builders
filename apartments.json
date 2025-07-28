@@ -1,0 +1,110 @@
+[
+  {
+    "type": "Tipi 1",
+    "surface": "136.4 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "3 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, Holli, Llozha, Terasa"
+    ],
+    "availability": [
+      { "floor": "Kati 1", "status": "B01 - Në dispozicion", "sold": false },
+      { "floor": "Kati 2", "status": "B08 - Në dispozicion", "sold": false },
+      { "floor": "Kati 3", "status": "B15 - E shitur", "sold": true },
+      { "floor": "Kati 4", "status": "B22 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi1/tipi1.png", "assets/apartments/tipi1/tipi1floorplan.png", "assets/apartments/tipi1/5.png", "assets/apartments/tipi1/10.png"]
+  },
+  {
+    "type": "Tipi 2",
+    "surface": "107.2 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "3 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, Holli, Llozha"
+    ],
+    "availability": [
+      { "floor": "Kati 1", "status": "B02 - Në dispozicion", "sold": false },
+      { "floor": "Kati 2", "status": "B09 - Në dispozicion", "sold": false },
+      { "floor": "Kati 3", "status": "B16 - Në dispozicion", "sold": false },
+      { "floor": "Kati 4", "status": "B23 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi2/tipi2.png", "assets/apartments/tipi2/tipi2floorplan.png", "assets/apartments/tipi2/5.png", "assets/apartments/tipi2/6.png"]
+  },
+    {
+    "type": "Tipi 3",
+    "surface": "67.45 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "Dhomë Gjumi",
+      "Banjo",
+      "Depo, Holli, Llozha"
+    ],
+    "availability": [
+      { "floor": "Kati 1", "status": "B03 - Në dispozicion", "sold": false },
+      { "floor": "Kati 2", "status": "B10 - Në dispozicion", "sold": false },
+      { "floor": "Kati 3", "status": "B17 - Në dispozicion", "sold": false },
+      { "floor": "Kati 4", "status": "B24 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi3/tipi3.png", "assets/apartments/tipi3/tipi3floorplan.png", "assets/apartments/tipi3/1.png", "assets/apartments/tipi3/6.png"]
+  },
+    {
+    "type": "Tipi 4",
+    "surface": "95.3 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "2 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, Holli, Llozha"
+    ],
+    "availability": [
+      { "floor": "Kati 1", "status": "B04 - Në dispozicion", "sold": false },
+      { "floor": "Kati 2", "status": "B11 - Në dispozicion", "sold": false },
+      { "floor": "Kati 3", "status": "B18 - Në dispozicion", "sold": false },
+      { "floor": "Kati 4", "status": "B25 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi4/tipi4.png", "assets/apartments/tipi4/tipi4floorplan.png", "assets/apartments/tipi4/5.png", "assets/apartments/tipi4/4.png"]
+  },
+    {
+    "type": "Tipi 5",
+    "surface": "92.30 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "2 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, Holli, Llozha"
+    ],
+    "availability": [
+      { "floor": "Kati 1", "status": "B06 - Në dispozicion", "sold": false },
+      { "floor": "Kati 2", "status": "B13 - Në dispozicion", "sold": false },
+      { "floor": "Kati 3", "status": "B20 - Në dispozicion", "sold": false },
+      { "floor": "Kati 4", "status": "B27 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi5/tipi5.png", "assets/apartments/tipi5/tipi5floorplan.png", "assets/apartments/tipi5/2.png", "assets/apartments/tipi5/3.png"]
+  },
+      {
+    "type": "Tipi 6",
+    "surface": "92.30 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "2 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, Holli, Llozhaaa"
+    ],
+    "availability": [
+      { "floor": "Kati 1", "status": "B06 - Në dispozicion", "sold": false },
+      { "floor": "Kati 2", "status": "B13 - Në dispozicion", "sold": false },
+      { "floor": "Kati 3", "status": "B20 - Në dispozicion", "sold": false },
+      { "floor": "Kati 4", "status": "B27 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi6/tipi6.png", "assets/apartments/tipi6/tipi6floorplan.png", "assets/apartments/tipi6/2.png", "assets/apartments/tipi6/4.png"]
+  }
+]

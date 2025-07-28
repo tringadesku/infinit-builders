@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!-- <link href="css/tiny-slider.css" rel="stylesheet"> -->
+  <link href="css/style.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+<!-- Sticky Wrapper -->
+<div style="position: sticky; top: 0; z-index: 1020;">
+  <!-- Top Bar with Contact -->
+  <div style="height: auto; background-color: #aa7651; color: white; font-size: 14px;" class="py-1 px-3 d-flex justify-content-between align-items-center flex-wrap">
+    <div class="d-flex align-items-center flex-wrap gap-3">
+      <span style="font-size: 12px;"><i class="bi bi-telephone-fill"></i> +383 45 333 678</span>
+      <span style="font-size: 12px;"><i class="bi bi-telephone-fill"></i> +383 49 200 074</span>
+      <span> | </span>
+      <a href="https://www.facebook.com/YOUR_PAGE_HERE" target="_blank" class="text-white text-decoration-none">
+        <i class="bi bi-facebook" style="font-size: 1rem;"></i>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Navbar -->
+  <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="infinitlogo2.png" alt="" style="height: 80px; margin: -15px;">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsFurni">
+        <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Ballina</a>
+          </li>
+          <li><a class="nav-link" href="#projects">Projektet</a></li>
+          <li><a class="nav-link" href="#about-us">Rreth Nesh</a></li>
+          <li><a class="nav-link" href="#contact">Kontakti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+<div class="container py-5">
+  <h3 class="text-center mb-4">Zgjidh Katin</h3>
+
+  <!-- Tabs Navigation -->
+  <ul class="nav nav-tabs justify-content-center mb-4" id="apartmentTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active tab-orange" id="tab1-4" data-bs-toggle="tab" data-bs-target="#floor1-4" type="button" role="tab">Kati 1–4</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link tab-orange" id="tab5-6" data-bs-toggle="tab" data-bs-target="#floor5-6" type="button" role="tab">Kati 5–6</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link tab-orange" id="tab7" data-bs-toggle="tab" data-bs-target="#floor7" type="button" role="tab">Kati 7</button>
+    </li>
+  </ul>
+
+  <!-- Tabs Content -->
+  <div class="tab-content" id="apartmentTabsContent">
+
+    <!-- Kati 1–4 -->
+    <div class="tab-pane fade show active" id="floor1-4" role="tabpanel">
+      <div class="row g-4">
+        <!-- Apartment card -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="a1.jpg" class="card-img-top" alt="Apt A1">
+            <div class="card-body">
+              <h6 class="card-title">Apartamenti A1</h6>
+              <p class="small text-muted mb-1">Sipërfaqe: 92m²</p>
+              <p class="small text-muted">Tipi: 2+1, Banjo: 1</p>
+              <span class="badge bg-success">Në dispozicion</span>
+            </div>
+          </div>
+        </div>
+        <!-- Add other 6 cards... -->
+      </div>
+    </div>
+
+    <!-- Kati 5–6 -->
+    <div class="tab-pane fade" id="floor5-6" role="tabpanel">
+      <div class="row g-4">
+        <!-- 5 apartment cards... -->
+      </div>
+    </div>
+
+    <!-- Kati 7 -->
+    <div class="tab-pane fade" id="floor7" role="tabpanel">
+      <div class="row g-4">
+        <!-- 2 apartment cards... -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Footer -->
+<footer id="contact" class="footer-custom text-white mt-5">
+  <div class="container py-4">
+    <div class="row justify-content-center text-center">
+      <!-- Contact Info -->
+      <div class="col-md-6 mb-4">
+        <h5 class="mb-3">Kontakti</h5>
+        <p class="mb-1"><i class="fas fa-phone-alt me-2"></i> +383 45 333 678</p>
+        <p class="mb-1"><i class="fas fa-phone-alt me-2"></i> +383 49 200 074</p>
+        <p><i class="fas fa-envelope me-2"></i> infinitbuilders.pr@gmail.com</p>
+      </div>
+
+      <!-- Social / Links -->
+      <div class="col-md-6 mb-4">
+        <h5 class="mb-3">Rrjetet Sociale</h5>
+        <a href="https://www.facebook.com/YOUR_PAGE" class="text-white me-3" target="_blank">
+          <i class="fab fa-facebook fa-lg"></i> Facebook
+        </a>
+        <!-- Add more socials if needed -->
+      </div>
+    </div>
+
+    <hr class="border-top border-light" />
+
+    <div class="text-center small">
+      &copy; <span id="currentYear"></span> Infinite Builders. Të gjitha të drejtat e rezervuara.
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- Inline or in CSS -->
+<style>
+  .footer-custom {
+    background-color: #aa7651;
+  }
+  .footer-custom a {
+    text-decoration: none;
+  }
+  .footer-custom a:hover {
+    text-decoration: underline;
+  }
+
+  /* .project-row ul li::before {
+  content: "•";
+  color: #aa7651;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+} */
+
+</style>
+
+<!-- Script to auto update the year -->
+<script>
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
+
+
+  <style>
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 10%; /* Slightly larger touch target on small screens */
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: rgba(0, 0, 0, 0.5); /* Dark background */
+      border-radius: 50%;
+      padding: 12px;
+      background-size: 60% 60%;
+      transition: background-color 0.3s ease;
+    }
+    
+    /* Hover effect */
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    /* Make buttons scale down on small screens */
+    @media (max-width: 768px) {
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        padding: 8px;
+        background-size: 50% 50%;
+      }
+    
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 15%;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        padding: 6px;
+        background-size: 40% 40%;
+      }
+    
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 20%;
+      }
+    }
+
+
+    .carousel-caption-custom {
+      position: absolute;
+      z-index: 1;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(245, 245, 245, 0.8); /* whitesmoke with opacity */
+      color: #2f2f2f;
+      padding: 20px 30px;
+      /* border-radius: 15px; */
+      width: 60%;
+      /* max-width: 90%; */
+      text-align: center;
+      border-top: 5px solid #aa7651;
+      /* box-shadow: 0 4px 12px rgba(0,0,0,0.4); */
+      backdrop-filter: blur(5px);
+  }
+
+  .carousel-caption-custom h4, p {
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+
+  .more-link {
+  padding: 2px 10px;
+  font-size: 12px;
+}
+
+
+.section-title {
+  /* font-size: 2rem; */
+  /* font-weight: 700; */
+  position: relative;
+}
+
+.underline {
+  height: 4px;
+  width: 80px;
+  background-color: #aa7651; /* Your highlight color */
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-caption-custom {
+    font-size: 14px;
+    padding: 15px px;
+  }
+}
+
+
+.custom-icon {
+  color: #aa7651;
+  transition: transform 0.3s ease;
+}
+
+.custom-icon:hover {
+  transform: scale(1.2);
+}
+
+
+.project-btn {
+  background-color: #aa7651;
+  color: #fff;
+  border: none;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #8f6042;
+  color: #fff;
+  text-decoration: none;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+  height: 100%;
+  max-height: 300px;
+}
+
+
+
+.thumbnail-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.thumbnail-scroll::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+}
+.thumbnail-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+
+  .tab-orange {
+    color: #ff6600;
+    border: 1px solid transparent;
+  }
+
+  .tab-orange.active {
+    background-color: #ff6600;
+    color: white !important;
+    border-color: #ff6600 #ff6600 #fff;
+  }
+
+  .nav-tabs {
+    border-bottom: 2px solid #ff6600;
+  }
+
+  .card-img-top {
+    height: 180px;
+    object-fit: cover;
+  }
+
+    </style>
+    
+    
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

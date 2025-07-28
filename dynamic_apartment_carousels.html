@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <title>Apartments</title>
+  <style>
+    .footer-custom {
+      background-color: #aa7651;
+    }
+    .footer-custom a {
+      text-decoration: none;
+    }
+    .footer-custom a:hover {
+      text-decoration: underline;
+    }
+    .underline {
+      height: 4px;
+      width: 80px;
+      background-color: #aa7651;
+      border-radius: 2px;
+    }
+    .object-fit-cover {
+      object-fit: cover;
+      height: 100%;
+      max-height: 300px;
+    }
+    .thumbnail-scroll::-webkit-scrollbar {
+      height: 6px;
+    }
+    .thumbnail-scroll::-webkit-scrollbar-thumb {
+      background: #bbb;
+      border-radius: 4px;
+    }
+    .thumbnail-scroll::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  </style>
+</head>
+<body>
+<div style="position: sticky; top: 0; z-index: 1020;">
+  <div style="background-color: #aa7651; color: white; font-size: 14px;" class="py-1 px-3 d-flex justify-content-between align-items-center flex-wrap">
+    <div class="d-flex align-items-center flex-wrap gap-3">
+      <span style="font-size: 12px;"><i class="bi bi-telephone-fill"></i> +383 45 333 678</span>
+      <span style="font-size: 12px;"><i class="bi bi-telephone-fill"></i> +383 49 200 074</span>
+      <span> | </span>
+      <a href="https://www.facebook.com/YOUR_PAGE_HERE" target="_blank" class="text-white text-decoration-none">
+        <i class="bi bi-facebook" style="font-size: 1rem;"></i>
+      </a>
+    </div>
+  </div>
+
+  <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="infinitlogo2.png" alt="Logo" style="height: 80px; margin: -15px;" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsFurni">
+        <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item active"><a class="nav-link" href="index.html">Ballina</a></li>
+          <li><a class="nav-link" href="#projects">Projektet</a></li>
+          <li><a class="nav-link" href="#about-us">Rreth Nesh</a></li>
+          <li><a class="nav-link" href="#contact">Kontakti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="container py-5">
+  <h3 class="text-center py-3">Apartamentet në Shitje</h3>
+  <div id="apartmentList"></div>
+</div>
+
+<footer id="contact" class="footer-custom text-white mt-5">
+  <div class="container py-4">
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6 mb-4">
+        <h5 class="mb-3">Kontakti</h5>
+        <p class="mb-1"><i class="fas fa-phone-alt me-2"></i> +383 45 333 678</p>
+        <p class="mb-1"><i class="fas fa-phone-alt me-2"></i> +383 49 200 074</p>
+        <p><i class="fas fa-envelope me-2"></i> infinitbuilders.pr@gmail.com</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h5 class="mb-3">Rrjetet Sociale</h5>
+        <a href="https://www.facebook.com/YOUR_PAGE" class="text-white me-3" target="_blank">
+          <i class="fab fa-facebook fa-lg"></i> Facebook
+        </a>
+      </div>
+    </div>
+    <hr class="border-top border-light" />
+    <div class="text-center small">&copy; <span id="currentYear"></span> Infinite Builders. Të gjitha të drejtat e rezervuara.</div>
+  </div>
+</footer>
+
+  <script>
+    const apartments = [
+      {
+        type: "Tipi 1",
+        surface: "136.4 m²",
+        features: ["Qendrimi Ditor", "Kuzhina & Tryezaria", "3 Dhoma Gjumi", "Banjo & Tualet", "Depo, Holli, Llozha, Terasa"],
+        availability: [
+          { floor: "Kati 1", status: "B01 - Në dispozicion", sold: false },
+          { floor: "Kati 2", status: "B08 - Në dispozicion", sold: false },
+          { floor: "Kati 3", status: "B15 - E shitur", sold: true },
+          { floor: "Kati 4", status: "B22 - Në dispozicion", sold: false }
+        ],
+        images: ["tipi1.png", "tipi1floorplan.png", "5.png", "10.png"]
+      },
+      {
+        type: "Tipi 2",
+        surface: "98.7 m²",
+        features: ["Qendrimi Ditor", "Kuzhina", "2 Dhoma Gjumi", "Banjo", "Ballkon"],
+        availability: [
+          { floor: "Kati 1", status: "A01 - Në dispozicion", sold: false },
+          { floor: "Kati 2", status: "A02 - E shitur", sold: true }
+        ],
+        images: ["tipi2-1.png", "tipi2-2.png"]
+      }
+    ];
+
+    const apartmentList = document.getElementById("apartmentList");
+
+    apartments.forEach((apt, index) => {
+      const id = `aptCarousel${index}`;
+      const modalId = `aptModal${index}`;
+
+      const carouselItems = apt.images.map((img, idx) => `
+        <div class="carousel-item ${idx === 0 ? 'active' : ''}">
+          <img src="${img}" class="d-block w-100" alt="${apt.type}" onclick="openImageModal('${modalId}', ${index}, '${img}')" />
+        </div>
+      `).join("");
+
+      const availability = apt.availability.map(item => `
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          ${item.floor}
+          <span class="badge ${item.sold ? 'bg-danger' : 'bg-success'}">${item.status}</span>
+        </li>
+      `).join("");
+
+      const features = apt.features.map(f => `<li>${f}</li>`).join("");
+
+      apartmentList.innerHTML += `
+        <div class="row g-4 mb-5">
+          <div class="col-lg-7">
+            <div id="${id}" class="carousel slide shadow rounded" data-bs-ride="carousel" data-bs-interval="15000">
+              <div class="carousel-inner">
+                ${carouselItems}
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#${id}" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#${id}" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card h-100 p-3">
+              <h5 class="text-primary">${apt.type}</h5>
+              <p><strong>Sipërfaqe:</strong> ${apt.surface}</p>
+              <ul>${features}</ul>
+              <h6 class="text-secondary">Disponueshmëria:</h6>
+              <ul class="list-group">${availability}</ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="${modalId}" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content bg-dark">
+              <div class="modal-body p-0">
+                <div id="modalCarousel${index}" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    ${carouselItems}
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#modalCarousel${index}" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#modalCarousel${index}" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+              </div>
+              <div class="modal-footer bg-dark border-0 justify-content-center">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Mbyll</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+
+    function openImageModal(modalId, index, startImg) {
+      const modal = new bootstrap.Modal(document.getElementById(modalId));
+      modal.show();
+
+      const images = apartments[index].images;
+      const startIndex = images.indexOf(startImg);
+      const carousel = document.getElementById(`modalCarousel${index}`);
+      const bsCarousel = bootstrap.Carousel.getInstance(carousel) || new bootstrap.Carousel(carousel);
+      bsCarousel.to(startIndex);
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link href="css/style.css" rel="stylesheet" />
+  <title>Document</title>
+</head>
+<body>
+
+<!-- Sticky Wrapper -->
+<div style="position: sticky; top: 0; z-index: 1020;">
+  <!-- Top Bar with Contact -->
+  <div style="background-color: #aa7651; color: white; font-size: 14px;" class="py-1 px-3 d-flex justify-content-between align-items-center flex-wrap">
+    <div class="d-flex align-items-center flex-wrap gap-3">
+      <span style="font-size: 12px;"><i class="bi bi-telephone-fill"></i> +383 45 333 678</span>
+      <span style="font-size: 12px;"><i class="bi bi-telephone-fill"></i> +383 49 200 074</span>
+      <span> | </span>
+      <a href="https://www.facebook.com/YOUR_PAGE_HERE" target="_blank" class="text-white text-decoration-none">
+        <i class="bi bi-facebook" style="font-size: 1rem;"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="infinitlogo2.png" alt="" style="height: 80px; margin: -15px;" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsFurni">
+        <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item active"><a class="nav-link" href="index.html">Ballina</a></li>
+          <li><a class="nav-link" href="#projects">Projektet</a></li>
+          <li><a class="nav-link" href="#about-us">Rreth Nesh</a></li>
+          <li><a class="nav-link" href="#contact">Kontakti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="container py-5">
+  <h3 class="text-center mb-4">Apartamentet në Shitje</h3>
+
+  <!-- Tipi 1 Section -->
+  <div class="mb-5">
+    <h5 class="mb-3 text-primary">Tipi 1</h5>
+    <div class="row g-4">
+      <!-- Apartment Type Card -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="position-relative">
+            <img src="tipi1.png" class="card-img-top object-fit-cover" alt="Tipi 1" onclick="openImageModal('tipi1.png')" />
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Tipi 1</h6>
+            <p class="card-text small text-muted mb-1">Sipërfaqe: 92m²</p>
+            <p class="card-text small text-muted">Tipi: 2+1, Banjo: 1</p>
+
+            <!-- Thumbnail previews -->
+            <div class="d-flex mt-2 gap-2 thumbnail-scroll overflow-auto">
+              <img src="tipi1.png" class="rounded shadow-sm" style="width: 60px; height: 45px; cursor: pointer;" onclick="openImageModal('tipi1.png')" />
+              <img src="tipi1floorplan.png" class="rounded shadow-sm" style="width: 60px; height: 45px; cursor: pointer;" onclick="openImageModal('tipi1floorplan.png')" />
+              <img src="5.png" class="rounded shadow-sm" style="width: 60px; height: 45px; cursor: pointer;" onclick="openImageModal('5.png')" />
+              <img src="10.png" class="rounded shadow-sm" style="width: 60px; height: 45px; cursor: pointer;" onclick="openImageModal('10.png')" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floor Availability -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm p-3">
+          <h6 class="mb-3 text-secondary">Disponueshmëria sipas kateve</h6>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Kati 1
+              <span class="badge bg-success">Në dispozicion</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Kati 2
+              <span class="badge bg-danger">E shitur</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Kati 3
+              <span class="badge bg-success">Në dispozicion</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Kati 4
+              <span class="badge bg-warning text-dark">Rezervuar</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tipi 2, Tipi 3, etc. can be repeated below using the same structure -->
+</div>
+
+
+<!-- Footer -->
+<footer id="contact" class="footer-custom text-white mt-5">
+  <div class="container py-4">
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6 mb-4">
+        <h5 class="mb-3">Kontakti</h5>
+        <p class="mb-1"><i class="fas fa-phone-alt me-2"></i> +383 45 333 678</p>
+        <p class="mb-1"><i class="fas fa-phone-alt me-2"></i> +383 49 200 074</p>
+        <p><i class="fas fa-envelope me-2"></i> infinitbuilders.pr@gmail.com</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h5 class="mb-3">Rrjetet Sociale</h5>
+        <a href="https://www.facebook.com/YOUR_PAGE" class="text-white me-3" target="_blank">
+          <i class="fab fa-facebook fa-lg"></i> Facebook
+        </a>
+      </div>
+    </div>
+    <hr class="border-top border-light" />
+    <div class="text-center small">&copy; <span id="currentYear"></span> Infinite Builders. Të gjitha të drejtat e rezervuara.</div>
+  </div>
+</footer>
+
+<!-- Image Modal -->
+<!-- Image Carousel Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body p-0 position-relative">
+        <div id="carouselModal" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" id="carouselInner"></div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselModal" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselModal" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Inline CSS -->
+<style>
+  .footer-custom {
+    background-color: #aa7651;
+  }
+
+  .footer-custom a {
+    text-decoration: none;
+  }
+
+  .footer-custom a:hover {
+    text-decoration: underline;
+  }
+
+  .object-fit-cover {
+    object-fit: cover;
+    height: 100%;
+    max-height: 300px;
+  }
+
+  .thumbnail-scroll::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .thumbnail-scroll::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 4px;
+  }
+
+  .thumbnail-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+</style>
+
+<!-- Bootstrap Bundle -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- Image Modal Script -->
+<script>
+  const imageList = ['tipi1.png', 'tipi1floorplan.png', '5.png', '10.png'];
+
+  function openImageModal(startImageSrc) {
+    const carouselInner = document.getElementById("carouselInner");
+    carouselInner.innerHTML = "";
+
+    imageList.forEach((img, index) => {
+      const isActive = img === startImageSrc ? "active" : "";
+      carouselInner.innerHTML += `
+        <div class="carousel-item ${isActive}">
+          <img src="${img}" class="d-block w-100 rounded" style="max-height: 80vh; object-fit: contain;" alt="Preview">
+        </div>
+      `;
+    });
+
+    const modal = new bootstrap.Modal(document.getElementById("imageModal"));
+    modal.show();
+
+    const startIndex = imageList.indexOf(startImageSrc);
+    const carousel = document.querySelector("#carouselModal");
+    const bsCarousel = bootstrap.Carousel.getInstance(carousel) || new bootstrap.Carousel(carousel);
+    bsCarousel.to(startIndex);
+  }
+</script>
+
+</body>
+</html>

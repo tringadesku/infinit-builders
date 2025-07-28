@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preload" as="image" href="img850px-01.jpg">
+  <link rel="preload" as="image" href="img850px-02.jpg">
+  <link rel="preload" as="image" href="img850px-03.jpg">
+
+
+  <!-- <link href="css/tiny-slider.css" rel="stylesheet"> -->
+  <link href="css/style.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+<!-- Sticky Wrapper -->
+<div style="position: sticky; top: 0; z-index: 1020;">
+  <!-- Top Bar with Contact -->
+  <div style="height: auto; background-color: #aa7651; color: white; font-size: 14px;" class="py-1 px-3 d-flex justify-content-between align-items-center flex-wrap">
+    <div class="d-flex align-items-center flex-wrap gap-3">
+      <span style="font-size: 12px;"><i class="bi bi-telephone-fill"></i> +383 45 333 678</span>
+      <span style="font-size: 12px;"><i class="bi bi-telephone-fill"></i> +383 49 200 074</span>
+      <span> | </span>
+      <a href="https://www.facebook.com/people/Infinity-Builders/61576144328259/" target="_blank" class="text-white text-decoration-none">
+        <i class="bi bi-facebook" style="font-size: 1rem;"></i>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Navbar -->
+  <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="infinitlogo2.png" alt="" style="height: 80px; margin: -15px; margin-inline: -10px;">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsFurni">
+        <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Ballina</a>
+          </li>
+          <li><a class="nav-link" href="#projects">Projektet</a></li>
+          <li><a class="nav-link" href="#about-us">Rreth Nesh</a></li>
+          <li><a class="nav-link" href="#contact">Kontakti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+  <div id="imageCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000" style="max-height: 545px; overflow: hidden;">
+  
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+  
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img850px-01.jpg" class="d-block w-100" alt="Wild Landscape"/>
+      </div>
+      <div class="carousel-item">
+        <!-- <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/> -->
+        <img src="img850px-02.jpg" class="d-block w-100" alt="Camera"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img850px-03.jpg" class="d-block w-100" alt="Exotic Fruits"/>
+      </div>
+    </div>
+
+    <div class="carousel-caption-custom">
+      <h4>Objekti Banesor Afarist - “INFINITE BUILDERS”</h4>
+      <p class="carousel-costum-p"><i class="bi bi-geo-alt-fill"></i>Prishtina e Re - Zona Perëndimore </p>
+      <a href="apartments.html" class="btn btn-sm btn-outline-dark more-link">Shiko apartamentet në shitje</a>
+    </div>    
+  
+    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  
+  </div>
+  
+
+<!-- Features Section -->
+<div class="features-section py-5 bg-light">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col text-center">
+        <h4 class="section-title">Çfarë Na Veçon?</h4>
+        <p class="text-muted small">Një kombinim i cilësisë, teknologjisë dhe përgjegjësisë mjedisore.</p>
+        <!-- <div class="underline mx-auto mt-2"></div> -->
+        <br/>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-6 col-md-3 mb-4">
+        <i class="fas fa-hard-hat fa-2x custom-icon mb-2"></i>
+        <p class="small fw-semibold">Ndërtim i Sigurtë</p>
+      </div>
+      <div class="col-6 col-md-3 mb-4">
+        <i class="fas fa-seedling fa-2x custom-icon mb-2"></i>
+        <p class="small fw-semibold">Qëndrueshmëri</p>
+      </div>
+      <div class="col-6 col-md-3 mb-4">
+        <i class="fas fa-tools fa-2x custom-icon mb-2"></i>
+        <p class="small fw-semibold">Teknologji Moderne</p>
+      </div>
+      <div class="col-6 col-md-3 mb-4">
+        <i class="fas fa-city fa-2x custom-icon mb-2"></i>
+        <p class="small fw-semibold">Zhvillim Urban</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Projects Section (1 per row) -->
+<div id="projects" class="py-5 bg-white">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h4 class="section-title">Projektet</h4>
+      <div class="underline mx-auto mt-2"></div>
+    </div>
+
+    <!-- Project Row -->
+    <div class="row align-items-start mb-5">
+      <!-- Main Image + Thumbnails -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img id="mainImage" src="1_6 - Photo.jpg" class="img-fluid rounded shadow-sm w-100 mb-3 object-fit-cover" alt="Projekti 1">
+
+        <!-- Thumbnails (Scrollable on smaller screens) -->
+        <div class="thumbnail-scroll d-flex gap-2 overflow-auto pb-2">
+          <img src="1_6 - Photo.jpg" class="img-thumbnail flex-shrink-0" style="width: 80px; height: 60px; object-fit: cover; cursor: pointer;" onclick="document.getElementById('mainImage').src=this.src">
+          <img src="1_2 - Photo.jpg" class="img-thumbnail flex-shrink-0" style="width: 80px; height: 60px; object-fit: cover; cursor: pointer;" onclick="document.getElementById('mainImage').src=this.src">
+          <img src="qasjet.png" class="img-thumbnail flex-shrink-0" style="width: 80px; height: 60px; object-fit: cover; cursor: pointer;" onclick="document.getElementById('mainImage').src=this.src">
+          <img src="image4.png" class="img-thumbnail flex-shrink-0" style="width: 80px; height: 60px; object-fit: cover; cursor: pointer;" onclick="document.getElementById('mainImage').src=this.src">
+          <img src="image5.png" class="img-thumbnail flex-shrink-0" style="width: 80px; height: 60px; object-fit: cover; cursor: pointer;" onclick="document.getElementById('mainImage').src=this.src">
+          <img src="1_6 - Photo.jpg" class="img-thumbnail flex-shrink-0" style="width: 80px; height: 60px; object-fit: cover; cursor: pointer;" onclick="document.getElementById('mainImage').src=this.src">
+          <img src="1_2 - Photo.jpg" class="img-thumbnail flex-shrink-0" style="width: 80px; height: 60px; object-fit: cover; cursor: pointer;" onclick="document.getElementById('mainImage').src=this.src">
+        </div>
+
+      </div>
+
+      <!-- Right Side Text + Apartment Types -->
+      <div class="col-md-6">
+        <h5 class="fw-bold">Objekti “INFINITE BUILDERS”</h5>
+        <p class="text-muted small mb-2">
+          <i class="bi bi-geo-alt-fill"></i> Zgjidhja Urbane p.rr. “Prishtina e Re”, Zona Perëndim, Blloku Urban D1 – rr. “Gucia”, Prishtinë
+        </p>
+
+        <ul class="list-unstyled text-muted small mb-2">
+          <li><strong>Tipi:</strong> NËRTESA BANESORE-AFARISTE, -2B+S+P+7ET</li>
+          <li><strong>Përshkrimi:</strong> Objekt me dy bodrume, suteren, përdhesë dhe 7 etazhe.</li>
+          <li><strong>Arkitektura:</strong> UA Architects</li>
+        </ul>
+
+        <!-- <p class="text-muted small mb-4">
+          <em>Tre tipe kryesore të apartamenteve: kati 1–4, 5–6 dhe 7</em>
+        </p> -->
+
+        <!-- Apartment Types (inline blocks) -->
+        <div class="d-flex flex-wrap gap-3">
+          <div class="flex-fill p-3 border rounded bg-light-subtle text-center" style="min-width: 70px;">
+            <h6 class="fw-bold mb-1 mt-1">Kati 1–4</h6>
+            <p class="small text-muted">7 apartamente</p>
+            <!-- <p class="small text-muted mb-2">Planifikim standard për familje</p> -->
+            <!-- Optional future button -->
+            <!-- <a href="#" class="btn btn-sm btn-outline-primary">Shiko</a> -->
+          </div>
+
+          <div class="flex-fill p-3 border rounded bg-light-subtle text-center" style="min-width: 70px;">
+            <h6 class="fw-bold mb-1 mt-1" >Kati 5–6</h6>
+            <p class="small text-muted">5 apartamente</p>
+            <!-- <p class="small text-muted mb-2">Më shumë ndriçim dhe pamje</p> -->
+          </div>
+
+          <div class="flex-fill p-3 border rounded bg-light-subtle text-center" style="min-width: 70px;">
+            <h6 class="fw-bold mb-1 mt-1">Kati 7</h6>
+            <p class="small text-muted">2 apartamente</p>
+            <!-- <p class="small text-muted">Penthouse me terasë</p> -->
+          </div>
+        </div>
+
+        <!-- Optional main button -->
+        <a href="apartments.html" class="btn btn-sm project-btn mt-3">Shiko apartamentet në shitje</a>
+      </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="mb-3 rounded overflow-hidden shadow" style="height: 350px;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1674.0450471461734!2d21.16408025962102!3d42.637159320569666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2s!4v1749847626157!5m2!1sen!2s"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+
+  </div>
+</div>
+
+
+
+  <!-- About Us Section -->
+<div id="about-us" class="about-us-section container py-5">
+  <div class="text-center mb-4">
+    <h4 class="section-title">Rreth nesh</h4>
+    <div class="underline mx-auto"></div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-md-6 mb-4 mb-md-0">
+      <img src="artworkimg-01.jpg" class="img-fluid rounded" alt="Rreth Nesh" style="height: auto;">
+    </div>
+    <div class="col-md-6">
+      <p class="lead">
+        Ne jemi një kompani ndërtimi që sjell qasje moderne dhe të qëndrueshme në çdo projekt që ndërmarrim.
+        Me përkushtim ndaj cilësisë dhe detajeve, krijojmë hapësira që frymëzojnë dhe zgjasin.
+      </p>
+      <br/>
+      <p>
+        Ekipi ynë përbëhet nga profesionistë me përvojë të gjatë, të përkushtuar për të sjellë zgjidhje inovative,
+        duke përdorur materiale cilësore dhe teknologji të fundit.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer id="contact" class="footer-custom text-white mt-5">
+  <div class="container py-4">
+    <div class="row justify-content-center text-center">
+      <!-- Contact Info -->
+      <div class="col-md-6 mb-4">
+        <h5 class="mb-3">Kontakti</h5>
+        <p class="mb-1"><i class="fas fa-phone-alt me-2"></i> +383 45 333 678</p>
+        <p class="mb-1"><i class="fas fa-phone-alt me-2"></i> +383 49 200 074</p>
+        <p><i class="fas fa-envelope me-2"></i> infinitbuilders.pr@gmail.com</p>
+      </div>
+
+      <!-- Social / Links -->
+      <div class="col-md-6 mb-4">
+        <h5 class="mb-3">Rrjetet Sociale</h5>
+
+        <div class="d-flex gap-3 flex-wrap justify-content-center">
+          <a href="https://wa.me/38349200074" target="_blank" class="text-white" style="text-decoration: none;">
+            <i class="fab fa-whatsapp fa-lg"></i>
+          </a>
+
+          <a href="https://invite.viber.com/?g2=A1B2C3D4E5F6..." 
+            onclick="window.location='viber://chat?number=%2B38349200074'; return true;" 
+            target="_blank" class="text-white" style="text-decoration: none;">
+            <i class="fab fa-viber fa-lg"></i>
+          </a>
+
+          <a href="https://www.facebook.com/people/Infinity-Builders/61576144328259/" target="_blank" class="text-white" style="text-decoration: none;">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+
+    <hr class="border-top border-light" />
+
+    <div class="text-center small">
+      &copy; <span id="currentYear"></span> Infinite Builders. Të gjitha të drejtat e rezervuara.
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- Inline or in CSS -->
+<style>
+  .footer-custom {
+    background-color: #aa7651;
+  }
+  .footer-custom a {
+    text-decoration: none;
+  }
+  .footer-custom a:hover {
+    text-decoration: underline;
+  }
+
+  /* .project-row ul li::before {
+  content: "•";
+  color: #aa7651;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+} */
+
+</style>
+
+<!-- Script to auto update the year -->
+<script>
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
+
+
+  <style>
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 10%; /* Slightly larger touch target on small screens */
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: rgba(0, 0, 0, 0.5); /* Dark background */
+      border-radius: 50%;
+      padding: 12px;
+      background-size: 60% 60%;
+      transition: background-color 0.3s ease;
+    }
+    
+    /* Hover effect */
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+      .carousel-caption-custom h4, p {
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+    
+    /* Make buttons scale down on small screens */
+    @media (max-width: 768px) {
+      .carousel-item img{
+        height: 300px;
+      }
+
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        padding: 8px;
+        background-size: 50% 50%;
+      }
+    
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 15%;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        padding: 6px;
+        background-size: 40% 40%;
+      }
+    
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 20%;
+      }
+
+      .carousel-caption-custom h4, p{
+        margin-bottom: 3px;
+      }
+      .carousel-costum-p {
+        line-height: 1.2;
+      }
+
+      
+    }
+
+
+    .carousel-caption-custom {
+      position: absolute;
+      z-index: 1;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(245, 245, 245, 0.8); /* whitesmoke with opacity */
+      color: #2f2f2f;
+      padding: 20px 30px;
+      /* border-radius: 15px; */
+      width: 60%;
+      /* max-width: 90%; */
+      text-align: center;
+      border-top: 5px solid #aa7651;
+      /* box-shadow: 0 4px 12px rgba(0,0,0,0.4); */
+      backdrop-filter: blur(5px);
+  }
+
+  .more-link {
+  padding: 2px 10px;
+  font-size: 12px;
+}
+
+
+.section-title {
+  /* font-size: 2rem; */
+  /* font-weight: 700; */
+  position: relative;
+}
+
+.underline {
+  height: 4px;
+  width: 80px;
+  background-color: #aa7651; /* Your highlight color */
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-caption-custom {
+    font-size: 14px;
+    padding: 15px 1px;
+  }
+}
+
+
+.custom-icon {
+  color: #aa7651;
+  transition: transform 0.3s ease;
+}
+
+.custom-icon:hover {
+  transform: scale(1.2);
+}
+
+
+.project-btn {
+  background-color: #aa7651;
+  color: #fff;
+  border: none;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #8f6042;
+  color: #fff;
+  text-decoration: none;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+  height: 100%;
+  max-height: 300px;
+}
+
+
+
+.thumbnail-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.thumbnail-scroll::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+}
+.thumbnail-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+    </style>
+    
+    
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

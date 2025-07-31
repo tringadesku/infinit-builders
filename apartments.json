@@ -7,7 +7,7 @@
       "Kuzhina & Tryezaria",
       "3 Dhoma Gjumi",
       "Banjo & Tualet",
-      "Depo, Holli, Llozha, Terasa"
+      "Depo, Holli, Lloxha, Terasa"
     ],
     "availability": [
       { "floor": "Kati 1", "status": "B01 - Në dispozicion", "sold": false },
@@ -25,7 +25,7 @@
       "Kuzhina & Tryezaria",
       "3 Dhoma Gjumi",
       "Banjo & Tualet",
-      "Depo, Holli, Llozha"
+      "Depo, Holli, Lloxha"
     ],
     "availability": [
       { "floor": "Kati 1", "status": "B02 - Në dispozicion", "sold": false },
@@ -43,7 +43,7 @@
       "Kuzhina & Tryezaria",
       "Dhomë Gjumi",
       "Banjo",
-      "Depo, Holli, Llozha"
+      "Depo, Holli, Lloxha"
     ],
     "availability": [
       { "floor": "Kati 1", "status": "B03 - Në dispozicion", "sold": false },
@@ -61,7 +61,7 @@
       "Kuzhina & Tryezaria",
       "2 Dhoma Gjumi",
       "Banjo & Tualet",
-      "Depo, Holli, Llozha"
+      "Depo, Holli, Lloxha"
     ],
     "availability": [
       { "floor": "Kati 1", "status": "B04 - Në dispozicion", "sold": false },
@@ -79,7 +79,7 @@
       "Kuzhina & Tryezaria",
       "2 Dhoma Gjumi",
       "Banjo & Tualet",
-      "Depo, Holli, Llozha"
+      "Depo, Holli, Lloxha"
     ],
     "availability": [
       { "floor": "Kati 1", "status": "B06 - Në dispozicion", "sold": false },
@@ -97,7 +97,7 @@
       "Kuzhina & Tryezaria",
       "2 Dhoma Gjumi",
       "Banjo & Tualet",
-      "Depo, Holli, Llozhaaa"
+      "Depo, Holli, Lloxha"
     ],
     "availability": [
       { "floor": "Kati 1", "status": "B06 - Në dispozicion", "sold": false },
@@ -106,5 +106,136 @@
       { "floor": "Kati 4", "status": "B27 - Në dispozicion", "sold": false }
     ],
     "images": ["assets/apartments/tipi6/tipi6.png", "assets/apartments/tipi6/tipi6floorplan.png", "assets/apartments/tipi6/2.png", "assets/apartments/tipi6/4.png"]
+  },
+      {
+    "type": "Tipi 7",
+    "surface": "95.6 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "2 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, Holli, Lloxha"
+    ],
+    "availability": [
+      { "floor": "Kati 1", "status": "B07 - Në dispozicion", "sold": false },
+      { "floor": "Kati 2", "status": "B14 - Në dispozicion", "sold": false },
+      { "floor": "Kati 3", "status": "B21 - Në dispozicion", "sold": false },
+      { "floor": "Kati 4", "status": "B28 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi7/tipi7.png", "assets/apartments/tipi7/tipi7floorplan.png", "assets/apartments/tipi7/6.png", "assets/apartments/tipi7/7.png"]
+  },
+    {
+    "type": "Tipi 8",
+    "surface": "126.6 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "3 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, Holli, Lloxha, Terasa"
+    ],
+    "availability": [
+      { "floor": "Kati 5", "status": "B29 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi8/tipi8.png", "assets/apartments/tipi8/tipi8floorplan.png", "assets/apartments/tipi8/2.png"]
+  },
+    {
+    "type": "Tipi 9",
+    "surface": "147.8 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "2 Dhoma Gjumi",
+      "2 Banjo",
+      "Tualet",
+      "2 Depo, 2 Holle, 4 Terasa"
+    ],
+    "availability": [
+      { "floor": "Kati 5 - 6 (DUPLEX)", "status": "B30 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi9/tipi9.png", "assets/apartments/tipi9/tipi9floorplan.png", "assets/apartments/tipi9/1.png", "assets/apartments/tipi9/4.png"]
+  }
+,
+    {
+    "type": "Tipi 10",
+    "surface": "155.5 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "2 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, 2 Holle, 2 Terasa"
+    ],
+    "availability": [
+      { "floor": "Kati 5 - 6 (DUPLEX)", "status": "B31 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi10/tipi10.png", "assets/apartments/tipi10/tipi10floorplan.png", "assets/apartments/tipi10/2.png", "assets/apartments/tipi10/6.png"]
+  }
+,
+    {
+    "type": "Tipi 11",
+    "surface": "194.9 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "3 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, Holli, Terasa"
+    ],
+    "availability": [
+      { "floor": "Kati 5", "status": "B30 - Në dispozicion", "sold": false },
+      { "floor": "Kati 6", "status": "B30 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi11/tipi11.png", "assets/apartments/tipi11/tipi11floorplan.png", "assets/apartments/tipi11/7.png", "assets/apartments/tipi11/6.png"]
+  }
+,
+    {
+    "type": "Tipi 12",
+    "surface": "92.0 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "2 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, Holli, Lloxha"
+    ],
+    "availability": [
+      { "floor": "Kati 5", "status": "B33 - Në dispozicion", "sold": false },
+      { "floor": "Kati 6", "status": "B33 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi12/tipi12.png", "assets/apartments/tipi12/tipi12floorplan.png", "assets/apartments/tipi12/4.png", "assets/apartments/tipi12/8.png"]
+  }
+,
+    {
+    "type": "Tipi 13",
+    "surface": "153.3 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "2 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Holli, 2 Terasa"
+    ],
+    "availability": [
+      { "floor": "Kati 7", "status": "B16 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi13/tipi13.png", "assets/apartments/tipi13/tipi13floorplan.png", "assets/apartments/tipi13/2.png", "assets/apartments/tipi13/1.png", "assets/apartments/tipi13/8.png"]
+  }
+,
+    {
+    "type": "Tipi 14",
+    "surface": "181.5 m²",
+    "features": [
+      "Qendrimi Ditor",
+      "Kuzhina & Tryezaria",
+      "3 Dhoma Gjumi",
+      "Banjo & Tualet",
+      "Depo, Holli, Lloxha, Terasa"
+    ],
+    "availability": [
+      { "floor": "Kati 7", "status": "B15 - Në dispozicion", "sold": false }
+    ],
+    "images": ["assets/apartments/tipi14/tipi14.png", "assets/apartments/tipi14/tipi14floorplan.png", "assets/apartments/tipi14/1.png", "assets/apartments/tipi14/3.png", "assets/apartments/tipi14/4.png"]
   }
 ]

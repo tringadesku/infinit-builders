@@ -12,7 +12,7 @@
     "availability": [
       { "floor": "Kati 1", "status": "B01 - Në dispozicion", "sold": false },
       { "floor": "Kati 2", "status": "B08 - Në dispozicion", "sold": false },
-      { "floor": "Kati 3", "status": "B15 - E shitur", "sold": true },
+      { "floor": "Kati 3", "status": "B15 - Në dispozicion", "sold": false },
       { "floor": "Kati 4", "status": "B22 - Në dispozicion", "sold": false }
     ],
     "images": ["assets/apartments/tipi1/tipi1.png", "assets/apartments/tipi1/tipi1floorplan.png", "assets/apartments/tipi1/5.png", "assets/apartments/tipi1/10.png"]

@@ -201,8 +201,8 @@
       "Depo, Holli, Lloxha"
     ],
     "availability": [
-      { "floor": "Kati 5", "status": "B33 - E shitur", "sold": true },
-      { "floor": "Kati 6 (92.0 m²)", "status": "B33 - E shitur", "sold": true }
+      { "floor": "Kati 5 (92.0 m²)", "status": "B33 - E shitur", "sold": true },
+      { "floor": "Kati 6", "status": "B33 - E shitur", "sold": true }
     ],
     "images": ["assets/apartments/tipi12/tipi12.png", "assets/apartments/tipi12/tipi12floorplan.png", "assets/apartments/tipi12/4.png", "assets/apartments/tipi12/8.png"]
   }

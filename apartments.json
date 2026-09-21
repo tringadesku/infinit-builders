@@ -13,7 +13,7 @@
       { "floor": "Kati 1", "status": "B01 - Në dispozicion", "sold": false },
       { "floor": "Kati 2", "status": "B08 - Në dispozicion", "sold": false },
       { "floor": "Kati 3", "status": "B15 - Në dispozicion", "sold": false },
-      { "floor": "Kati 4", "status": "B22 - Në dispozicion", "sold": false }
+      { "floor": "Kati 4", "status": "B22 - E shitur", "sold": true }
     ],
     "images": ["assets/apartments/tipi1/tipi1.png", "assets/apartments/tipi1/tipi1floorplan.png", "assets/apartments/tipi1/5.png", "assets/apartments/tipi1/10.png"]
   },
@@ -121,7 +121,7 @@
       { "floor": "Kati 1", "status": "B07 - Në dispozicion", "sold": false },
       { "floor": "Kati 2", "status": "B14 - Në dispozicion", "sold": false },
       { "floor": "Kati 3", "status": "B21 - Në dispozicion", "sold": false },
-      { "floor": "Kati 4", "status": "B28 - Në dispozicion", "sold": false }
+      { "floor": "Kati 4", "status": "B28 - E shitur", "sold": true }
     ],
     "images": ["assets/apartments/tipi7/tipi7.png", "assets/apartments/tipi7/tipi7floorplan.png", "assets/apartments/tipi7/6.png", "assets/apartments/tipi7/7.png"]
   },
@@ -192,7 +192,7 @@
 ,
     {
     "type": "Tipi 12",
-    "surface": "92.0 m²",
+    "surface": "88.7 m²",
     "features": [
       "Qendrimi Ditor",
       "Kuzhina & Tryezaria",
@@ -201,8 +201,8 @@
       "Depo, Holli, Lloxha"
     ],
     "availability": [
-      { "floor": "Kati 5", "status": "B33 - Në dispozicion", "sold": false },
-      { "floor": "Kati 6", "status": "B33 - Në dispozicion", "sold": false }
+      { "floor": "Kati 5", "status": "B33 - E shitur", "sold": true },
+      { "floor": "Kati 6 (92.0 m²)", "status": "B33 - E shitur", "sold": true }
     ],
     "images": ["assets/apartments/tipi12/tipi12.png", "assets/apartments/tipi12/tipi12floorplan.png", "assets/apartments/tipi12/4.png", "assets/apartments/tipi12/8.png"]
   }
